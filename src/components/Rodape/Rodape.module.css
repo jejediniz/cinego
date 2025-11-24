@@ -1,0 +1,22 @@
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;   /* fixa no fim da tela */
+    bottom: 0;         /* encosta na borda inferior */
+    left: 0;
+    width: 100%;       /* pega a largura inteira */
+
+    background-color: var(--preto);
+    padding: 1em 0;
+
+    z-index: 10;       /* fica por cima do conteúdo */
+}
+
+.rodape h2 {
+   font-weight: 400;
+   font-size: 18px;
+   color: var(--branco);
+   margin: 0;          /* remove espaço extra */
+}
