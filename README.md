@@ -1,71 +1,53 @@
-# Getting Started with Create React App
+Cine GO
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O Cine GO é uma plataforma de compartilhamento de filmes que permite ao usuário assistir, favoritar e navegar por uma lista de conteúdos de forma simples e intuitiva.
 
-## Available Scripts
+🎬 Sobre o projeto
 
-In the project directory, you can run:
+O aplicativo exibe uma lista de filmes em cards.
+Cada card possui:
 
-### `npm start`
+Ícone de coração, permitindo favoritar ou desfavoritar o filme.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Imagem do filme, que ao ser clicada direciona o usuário para a página do player, onde o vídeo é exibido.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+A plataforma também possui uma página exclusiva chamada Favoritos, acessada pelo link no canto superior direito da tela. Nela, o usuário encontra todos os filmes que marcou como favoritos.
 
-### `npm test`
+🛠️ Tecnologias utilizadas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+O projeto foi desenvolvido com:
 
-### `npm run build`
+React (via create-react-app)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+CSS Modules para estilização
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+React Router DOM para criação de rotas
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Hooks do React: useState, useEffect, useParams, useContext
 
-### `npm run eject`
+Context API para gerenciamento dos favoritos
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Mock de API e consumo de API real
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Vercel para deploy
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🧩 Conceitos trabalhados
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Durante o desenvolvimento do Cine Tag, foram aplicados e reforçados os seguintes conceitos:
 
-## Learn More
+Criação e organização de componentes e páginas
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Implementação de rotas normais, dinâmicas e aninhadas
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Utilização prática de hooks fundamentais do React
 
-### Code Splitting
+Criação e uso de contextos para compartilhamento de estado global
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Consumo de APIs externas
 
-### Analyzing the Bundle Size
+Realização do deploy de uma aplicação React
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+🚀 Objetivo do curso
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# cinego
+O projeto faz parte de um treinamento focado na prática com React, consolidando os conhecimentos adquiridos ao longo da formação.
+É recomendado ter uma base sólida em React e JavaScript para melhor aproveitamento.
