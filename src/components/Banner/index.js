@@ -1,10 +1,14 @@
+// src/components/Banner/index.js
 import styles from './Banner.module.css';
 
 function Banner({ imagem }) {
-    return (
-        <div className={styles.capa}
-            style={{ backgroundImage: `url('/imagens/banner-${imagem}.png')` }}></div>
-    )
+  const caminho = `/img/banner-${imagem}.png`; // corresponde a public/img/banner-home.png
+  return (
+    <div
+      className={styles.capa}
+      style={{ backgroundImage: `url(${caminho})` }}
+    />
+  );
 }
 
 export default Banner;

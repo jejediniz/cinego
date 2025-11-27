@@ -9,14 +9,14 @@
     width: 100%;       /* pega a largura inteira */
 
     background-color: var(--preto);
-    padding: 1em 0;
+    padding: 0.1em 0;
 
     z-index: 10;       /* fica por cima do conteúdo */
 }
 
 .rodape h2 {
-   font-weight: 400;
-   font-size: 18px;
+   font-weight: 500;
+   font-size: 15px;
    color: var(--branco);
    margin: 0;          /* remove espaço extra */
 }

@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import logo from './logo.png';
 import styles from './Cabecalho.module.css';
 import CabecalhoLink from "./CabecalhoLink";
 
@@ -7,7 +6,7 @@ function Cabecalho() {
     return (
         <header className={styles.cabecalho}>
             <CabecalhoLink url="./">
-            Jessica
+            Cine Go 
             </CabecalhoLink>
             <nav>
                 <CabecalhoLink url="/">Home</CabecalhoLink>
