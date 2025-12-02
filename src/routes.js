@@ -1,29 +1,25 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import Cabecalho from 'components/Cabecalho';
-import Container from 'components/Container';
-import Rodape from 'components/Rodape';
 import Favoritos from 'pages/Favoritos';
 import Inicio from 'pages/Inicio';
-import { FavoritosProvider } from './contextos/Favoritos';
+import Player from 'pages/Player';
+import NaoEncontrada from 'pages/NaoEncontrada';
+import PaginaBase from 'pages/PaginaBase';
 
 function AppRoutes() {
   return (
-<BrowserRouter>
-  <Cabecalho />
+      <BrowserRouter>
 
-  <Container>
-    <FavoritosProvider>
-      <Routes>
-        <Route path="/" element={<Inicio />} />
-        <Route path="/favoritos" element={<Favoritos />} />
-      </Routes>
-    </FavoritosProvider>
-  </Container>
-
-  <Rodape />
-</BrowserRouter>
+                <Routes>
+                  <Route path="/" element={<PaginaBase />} >
+                   <Route index element={<Inicio />} />
+                   <Route path="favoritos" element={<Favoritos />} />
+                   <Route path=":id" element={<Player />} />
+                   <Route path="*" element={<NaoEncontrada />} />
+                </Route>
+            </Routes>
+      </BrowserRouter>
   );
 }
 
