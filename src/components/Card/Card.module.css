@@ -1,17 +1,33 @@
+/* CARD */
 .container {
     padding: 0 0 1em 0;
     margin-top: .5em;
+
+    /* espaço entre os cards — ajuste como quiser (ex.: 20px, 24px, 32px) */
+    margin-right: 20px;
+    margin-bottom: 20px;
+
     width: 220px;
     background-color: var(--cinza);
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    box-sizing: border-box;
+    min-height: 420px;
+    border: 1px solid transparent;
 }
 
+/* CAPA DO CARD */
 .capa {
     width: 100%;
+    height: 260px;
+    object-fit: cover;
+    display: block;
 }
 
+/* TEXTO E ÍCONE */
 .container h2,
 .favoritar {
     padding: 0 1em;
@@ -21,6 +37,15 @@
     width: 25px;
 }
 
+/* ÁREA INTERNA DO CARD */
+.card-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+}
+
+/* LINK */
 .link {
     text-decoration: none;
     color: var(--preto);
