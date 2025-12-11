@@ -3,7 +3,7 @@ import styles from './Rodape.module.css';
  function Rodape() {
   return (
     <footer className={styles.rodape}>
-      <h2>Desenvolvido por JD</h2>
+      <h2>Desenvolvido por Jessica Diniz</h2>
     </footer>
   );
 }   
